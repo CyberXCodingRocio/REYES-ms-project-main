@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family:"Poppins", sans-serif;
 }
 
 .nav{
@@ -32,4 +33,61 @@
     text-decoration:none;
     font-size:20px;
     color:black;
+}
+
+header{
+    background-color: blue;
+    display:flex;
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.profile-pic{
+    width:300px;
+    height:300px;
+    border-radius:100%;
+}
+
+
+#about{
+    background-color: green;
+    display:flex;
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hobbies{
+    background-color: yellow;
+    display:flex;
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contact{
+    background-color: red;
+    display:flex;
+    height:100vh;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
